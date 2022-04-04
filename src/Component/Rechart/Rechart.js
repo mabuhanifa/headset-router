@@ -47,7 +47,7 @@ const Rechart = () => {
             <h2>
                 Monthly Sales
             </h2>
-    <LineChart width={400} height={400} data={data}> 
+    <LineChart width={500} height={400} data={data}> 
     <CartesianGrid strokeDasharray="3 3" />
         <Line type="monotone" dataKey={'sell'} stroke="#9900ff"></Line>
         <XAxis dataKey={'month'}></XAxis>

@@ -1,9 +1,9 @@
 export let data = [{
         id: '1',
         name: "John Smith",
-        review: "I bought these couple of weeks ago and although I really like the features, design and especially the sound, I can't say that I am very impressed with the solution for the commands. Half of the time volume up/down is not working at all",
+        review: "I bought these couple of weeks ago and although I really like the features, design and especially the sound, I can't say that I am very impressed with the solution for the commands. Half of the time volume up/down is not working at all.",
         img: "https://randomuser.me/api/portraits/men/40.jpg",
-        rating: "5/5"
+        rating: "4/5"
     },
     {
         id: '2',
