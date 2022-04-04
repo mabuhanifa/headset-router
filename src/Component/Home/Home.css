@@ -1,0 +1,40 @@
+.product {
+    display: flex;
+    margin: 0px 50px;
+}
+
+.product img {
+    margin-top: 50px;
+}
+
+.product h1 {
+    font-size: 50px;
+}
+
+h1:nth-child(1) {
+    color: rgb(31, 31, 58);
+}
+
+h1:nth-child(2) {
+    color: rgb(69, 69, 197);
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.product p {
+    margin-right: 200px;
+    font-size: 20px;
+    color: dimgrey;
+    margin-bottom: 50px;
+}
+
+.btn {
+    font-weight: 500;
+    color: rgb(69, 69, 197);
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: rgb(225, 225, 255);
+    border-radius: 7px;
+}

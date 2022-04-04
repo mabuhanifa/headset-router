@@ -8,6 +8,15 @@
     margin: 0px 20px;
     text-decoration: none;
     padding: 5px 10px;
-    border-bottom: 2px solid rgb(119, 70, 61);
     font-weight: 500;
+}
+
+.link {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+.active-link {
+    color: rgb(61, 58, 255);
+    border-bottom: 2px solid rgb(51, 64, 247);
 }

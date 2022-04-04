@@ -47,7 +47,7 @@ const Rechart = () => {
             <h2>
                 Total sales over time
             </h2>
-    <LineChart width={600} height={400} data={data}> 
+    <LineChart width={400} height={400} data={data}> 
     <CartesianGrid strokeDasharray="3 3" />
         <Line dataKey={'sell'} ></Line>
         <XAxis dataKey={'month'}></XAxis>
@@ -55,15 +55,14 @@ const Rechart = () => {
         <Tooltip></Tooltip>
     </LineChart>  
     </div>
-<div>
 
-
-<h2>
+    <div>
+    <h2>
     Investment Vs Revenue
-</h2>
+    </h2>
     <BarChart
-          width={600}
-          height={450}
+          width={450}
+          height={420}
           data={data}
         >
           <CartesianGrid strokeDasharray="3 3" />
