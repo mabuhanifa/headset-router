@@ -45,11 +45,11 @@ const Rechart = () => {
         <div className='chart'>
             <div className='line'>
             <h2>
-                Total sales over time
+                Monthly Sales
             </h2>
     <LineChart width={400} height={400} data={data}> 
     <CartesianGrid strokeDasharray="3 3" />
-        <Line dataKey={'sell'} ></Line>
+        <Line type="monotone" dataKey={'sell'} stroke="#9900ff"></Line>
         <XAxis dataKey={'month'}></XAxis>
         <YAxis  ></YAxis>
         <Tooltip></Tooltip>
