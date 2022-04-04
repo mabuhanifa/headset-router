@@ -1,7 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import useReviews from '../../CustomHook/CustomHook';
+import ReviewItem from '../ReviewItem/ReviewItem';
 import './Home.css';
 
 const Home = () => {
+    const [reviews] = useReviews();
+    const navigate = useNavigate();
+    //console.log(reviews);
     
     return (
         <div>
@@ -18,9 +24,19 @@ const Home = () => {
                 <img src="https://www.sony-asia.com/image/5d02da5df552836db894cead8a68f5f3" alt="" />
                 </div>
             </div>
-            <div>
-                
+            <h1 className='reviewhead'> Customer Reviews(3)</h1>
+            <div className='grid'>
+            {
+                    reviews.slice(0,3).map(review => <ReviewItem
+                        key={review.id}
+                        review={review}
+                        ></ReviewItem>
+
+                    )
+                }
             </div>
+            
+            <button onClick={()=> navigate('/reviews')} className='sa'>See all Reviews</button>
             
         </div>
     );

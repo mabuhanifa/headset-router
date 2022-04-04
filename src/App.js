@@ -17,7 +17,7 @@ function App() {
       <Route path="/dashboard" element={<Rechart />}/>
       <Route path="/blogs" element={<Blogs />}/>
       <Route path="/about" element={<About />}/>
-      <Route path="/review" element={<Review />}/>
+      <Route path="/reviews" element={<Review />}/>
       <Route path="*" element={<NotFound />}/>
        </Routes>
       </>

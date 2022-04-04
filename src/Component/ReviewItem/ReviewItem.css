@@ -1,0 +1,24 @@
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.detail img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review {
+    padding: 15px;
+    background-color: rgb(250, 244, 237);
+    border-radius: 10px;
+}
