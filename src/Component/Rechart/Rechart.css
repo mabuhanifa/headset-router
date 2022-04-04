@@ -1,0 +1,9 @@
+.chart {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.line {
+    margin-right: 100px;
+}
