@@ -1,4 +1,4 @@
-# HeadPhone Arena
+# Head-Phone Arena
 
 [Private Repo Link](https://github.com/programming-hero-web-course-4/product-analysis-website-mabuhanifa)
 
