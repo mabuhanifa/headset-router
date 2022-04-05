@@ -1,0 +1,12 @@
+.qna {
+    margin: 100px;
+    display: flex;
+    font-size: 20px;
+}
+
+.qna div {
+    padding: 10px 30px;
+    background-color: aliceblue;
+    margin: 15px;
+    border-radius: 5px;
+}

@@ -1,8 +1,8 @@
 # HeadPhone Arena
 
-[Private Repo Link](https://github.com/Programming-Hero-Web-Course4/lucky-one-mabuhanifa)
+[Private Repo Link](https://github.com/programming-hero-web-course-4/product-analysis-website-mabuhanifa)
 
-[Live Website](https://headset-arena.netlify.app)
+[Live Website](https://sonyheadset.netlify.app)
 
 1. This is a React SPA(Single Page App)
 2. This is built with React and React Router
