@@ -13,7 +13,7 @@
 
 .link {
     color: rgb(51, 51, 51);
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid rgb(190, 190, 190);
 }
 
 .active-link {
