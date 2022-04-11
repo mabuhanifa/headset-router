@@ -1,6 +1,6 @@
 # Head-Phone Arena
 
-[Private Repo Link](https://github.com/programming-hero-web-course-4/product-analysis-website-mabuhanifa)
+[Code Repo Link](https://github.com/mabuhanifa/headset-router)
 
 [Live Website](https://sonyheadset.netlify.app)
 
